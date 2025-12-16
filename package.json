@@ -1,0 +1,30 @@
+{
+  "name": "stardagent-bot-backend",
+  "version": "1.0.0",
+  "description": "Backend para bot telegram que responde perguntas sobre stardew valley",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunn3r71/stardagent-bot-backend.git"
+  },
+  "keywords": [
+    "stardew-valley",
+    "game"
+  ],
+  "author": "Lucas Pereira (gunn3r71)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gunn3r71/stardagent-bot-backend/issues"
+  },
+  "homepage": "https://github.com/gunn3r71/stardagent-bot-backend#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "node-telegram-bot-api": "^0.63.0"
+  }
+}
